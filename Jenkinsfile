@@ -22,7 +22,7 @@ pipeline {
 
         stage('Clean install') {
             steps {
-                sh 'mvn clean compile
+                sh 'mvn clean compile'
                 '
             }
         }
